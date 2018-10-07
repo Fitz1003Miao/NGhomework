@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/home/fitz/anaconda2/envs/python36/bin/python"
+    "python.pythonPath": "/Users/fitz/anaconda2/envs/python36/bin/python",
+    "python.linting.pylintEnabled": false
 }
