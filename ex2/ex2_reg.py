@@ -52,7 +52,7 @@ if __name__ == "__main__":
     initial_theta = np.zeros([n , 1])
 
     initial_lambda = 0.1
-
+    print(x.shape, y.shape, initial_theta.shape)
     result = scop.fmin_bfgs(f = costFunction, x0 = initial_theta, fprime = gradient, args = (x, y, initial_lambda))
     print(result)
 
